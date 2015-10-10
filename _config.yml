@@ -99,13 +99,9 @@ email: "ggallohernandez@gmail.com"
 
 social:
   - title: "facebook"
-    url: "http://facebook.com/"
-  - title: "twitter"
-    url: "http://twitter.com/"
-  - title: "youtube"
-    url: "http://youtube.com/"
+    url: "http://facebook.com/luisguillermogallohernandez"
   - title: "github"
-    url: "https://github.com/"
+    url: "https://github.com/ggallohernandez"
   - title: "rss"
     url: "/feed.xml"
 
