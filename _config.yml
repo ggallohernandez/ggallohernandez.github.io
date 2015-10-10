@@ -39,7 +39,7 @@ dynamic-typing: True
 shuffle: True	# Shuffle the lines.
 loop: True
 loop-count:	False # Set False for infinite loop, or set any number for finite loop.
-type-speed:	10		# Default 10
+type-speed:	20		# Default 10
 start-delay: 200	# Default 200
 delete-delay: 5000	# Default 5000
 lines:			# You can add HTML Tags in the Text
@@ -61,7 +61,7 @@ paginate: 5
 fb-share: True
 twitter-share: True
 reddit-share: True
-disqus-shortname: "panossakkos"
+disqus-shortname: "ggallohernandez"
 
 ###############
 # Life Events #
@@ -69,11 +69,20 @@ disqus-shortname: "panossakkos"
 
 events:
   - image: "/img/career/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
+    date: "Noviembre 2014 - Actualidad"
+    description: "Director de Desarrollo de Sistemas | Líder de equipo de desarrollo, gestión del departamento de desarrollo de sistemas, y análisis de proyectos"
+  - image: "/img/career/spidertocat.png"
+    date: "Junio 2013 - Noviembre 2014"
+    description: "Desarrollador PHP Semi-Senior | Desarrollo y mantenimientos de sitios web, intranets y sistemas de reporting en plataforma LAMP, utilizando framework Codeigniter."
+  - image: "/img/career/spidertocat.png"
+    date: "Junio 2012 - Agosto 2013"
+    description: "Desarrollador PHP Semi-Senior | Desarrollo de aplicación web para la generación de declaraciones juradas para la Tasa de Seguridad e Higiene y su volante de pago correspondiente con código de barras de Pago Fácil Y Banco Provincia. Desarrollo de sistema web de turnos para la dirección de licencias, panel de administración y sistemas internos."
   - image: "/img/career/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
+    date: "Enero 2012 - Julio 2012"
+    description: "Desarrollador PHP Junior | Desarrollo de sistemas de web reporting, en plataforma LAMP, utilizando framework Symfony y Codeigniter"
+  - image: "/img/career/baracktocat.jpg"
+    date: "Febrero 2011 - Enero 2012"
+    description: "Desarrollador PHP Junior | Desarrollo de sistemas de gestion internos, y de reporting en plataforma LAMP, utilizando framework CakePHP"
 
 # First image of the Career timeline
 career-img: "/img/career/default.png"
