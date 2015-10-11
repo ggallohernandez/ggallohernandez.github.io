@@ -29,17 +29,17 @@ keywords: "gallo, hernández, luis, guillermo, ggallohernandez, personal, sitio,
 
 black-favicon: "/img/black-lab-glass.ico"
 background-img: "../img/intro-bg.jpg"
-me-img: "/img/jetpacktocat.png"
+me-img: "/img/perfil.png"
 
 ##############################
 # Dynamic Text on the header #
 ##############################
 
-dynamic-typing: True
+dynamic-typing: False
 shuffle: True	# Shuffle the lines.
 loop: True
 loop-count:	False # Set False for infinite loop, or set any number for finite loop.
-type-speed:	20		# Default 10
+type-speed:	0		# Default 10
 start-delay: 200	# Default 200
 delete-delay: 5000	# Default 5000
 lines:			# You can add HTML Tags in the Text
@@ -68,24 +68,37 @@ disqus-shortname: "ggallohernandez"
 ###############
 
 events:
-  - image: "/img/career/spidertocat.png"
+  - image: "/img/empresa/promaker.jpg"
     date: "Noviembre 2014 - Actualidad"
-    description: "Director de Desarrollo de Sistemas en Promaker SRL | Líder de equipo de desarrollo, gestión del departamento de desarrollo de sistemas, y análisis de proyectos"
-  - image: "/img/career/spidertocat.png"
+    title: "Director de Desarrollo de Sistemas en Promaker SRL"
+    description: "Líder de equipo de desarrollo, gestión del departamento de desarrollo de sistemas, y análisis de proyectos"
+  - image: "/img/empresa/promaker.jpg"
     date: "Junio 2013 - Noviembre 2014"
-    description: "Desarrollador PHP Semi-Senior en Promaker SRL | Desarrollo y mantenimientos de sitios web, intranets y sistemas de reporting en plataforma LAMP, utilizando framework Codeigniter."
-  - image: "/img/career/spidertocat.png"
+    title: "Desarrollador PHP Semi-Senior en Promaker SRL"
+    description: "Desarrollo y mantenimientos de sitios web, intranets y sistemas de reporting en plataforma LAMP, utilizando framework Codeigniter."
+  - image: "/img/empresa/municipalidad_esteban_echeverria.png"
     date: "Junio 2012 - Agosto 2013"
-    description: "Desarrollador PHP Semi-Senior en Municipalidad de Esteban Echeverria | Desarrollo de aplicación web para la generación de declaraciones juradas para la Tasa de Seguridad e Higiene y su volante de pago correspondiente con código de barras de Pago Fácil Y Banco Provincia. Desarrollo de sistema web de turnos para la dirección de licencias, panel de administración y sistemas internos."
-  - image: "/img/career/baracktocat.jpg"
+    title: "Desarrollador PHP Semi-Senior en Municipalidad de Esteban Echeverria"
+    description: "Desarrollo de aplicación web para la generación de declaraciones juradas para la Tasa de Seguridad e Higiene y su volante de pago correspondiente con código de barras de Pago Fácil Y Banco Provincia. Desarrollo de sistema web de turnos para la dirección de licencias, panel de administración y sistemas internos."
+  - image: "/img/empresa/tmt.jpg"
     date: "Enero 2012 - Julio 2012"
-    description: "Desarrollador PHP Junior en TMT SRL | Desarrollo de sistemas de web reporting, en plataforma LAMP, utilizando framework Symfony y Codeigniter"
-  - image: "/img/career/baracktocat.jpg"
+    title: "Desarrollador PHP Junior en TMT SRL"
+    description: "Desarrollo de sistemas de web reporting, en plataforma LAMP, utilizando framework Symfony y Codeigniter"
+  - image: "/img/empresa/municipalidad_esteban_echeverria.png"
     date: "Febrero 2011 - Enero 2012"
-    description: "Desarrollador PHP Junior en Municipalidad de Esteban Echeverria | Desarrollo de sistemas de gestion internos, y de reporting en plataforma LAMP, utilizando framework CakePHP"
+    title: "Desarrollador PHP Junior en Municipalidad de Esteban Echeverria"
+    description: "Desarrollo de sistemas de gestion internos, y de reporting en plataforma LAMP, utilizando framework CakePHP"
 
 # First image of the Career timeline
-career-img: "/img/career/default.png"
+career-img: "/img/empresa/default.png"
+
+studies:
+  - image: "/img/institucion/unlam.png"
+    date: "Abril 2009 - Actualidad"
+    title: "Ingeniería en Informática"
+    description: "Universidad Nacional de La Matanza"
+
+studies-img: "/img/empresa/default.png"
 
 ##################
 # Contact layout #
@@ -120,10 +133,11 @@ social:
 # In the default page it will point to the preview of the last post
 
 pages_list:
-  About: 'about'
-  Blog: 'blog'
-  Career: 'career'
-  Contact: 'contact'
+  Acerca de mi: 'acerca-de-mi'
+  # Blog: 'blog'
+  Experiencia: 'experiencia'
+  Estudios: 'estudios'
+  Contacto: 'contacto'
 
 # Pagination path
 paginate_path: "blog/page:num"

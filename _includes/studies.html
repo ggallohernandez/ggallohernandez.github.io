@@ -1,5 +1,6 @@
 
-<!-- Career Start -->
+<!-- Studies Start -->
+
 
 <section id="{{ page.section-type }}-section" class="container content-section text-center">
     <div class="row">
@@ -9,7 +10,7 @@
 
           <ul class="timeline">
 
-            {% for event in site.events %}
+            {% for study in site.studies %}
               {% assign loopindex = forloop.index | modulo: 2 %}
               {% capture class %}
               {% if loopindex == 0 %}
@@ -19,15 +20,15 @@
 
               <li class="{{ class }}">
                   <div class="timeline-image">
-                      <img class="img-circle img-responsive" src="{{site.baseurl}}{{ event.image }}" alt="">
+                      <img class="img-circle img-responsive" src="{{site.baseurl}}{{ study.image }}" alt="">
                   </div>
                   <div class="timeline-panel">
                       <div class="timeline-heading">
-                          <h4>{{ event.date }}</h4>
+                          <h4>{{ study.date }}</h4>
                       </div>
                       <div class="timeline-body">
-                          <strong>{{ event.title | markdownify }}</strong>
-                          {{ event.description | markdownify }}
+                          <strong>{{ study.title | markdownify }}</strong>
+                          {{ study.description | markdownify }}
                       </div>
                   </div>
               </li>
@@ -35,7 +36,7 @@
 
             <li class="timeline-inverted">
               <div class="timeline-image">
-                <img class="img-circle img-responsive" src="{{site.baseurl}}{{ site.career-img }}" alt="">
+                <img class="img-circle img-responsive" src="{{site.baseurl}}{{ site.studies-img }}" alt="">
               </div>
             </li>
           </ul>
@@ -43,4 +44,4 @@
     </div>
 </section>
 
-<!-- Career End -->
+<!-- Studies End -->
