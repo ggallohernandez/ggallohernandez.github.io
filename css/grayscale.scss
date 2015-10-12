@@ -148,12 +148,13 @@ ol {
     padding: 100px 0;
     text-align: center;
     color: $light;
-    background: url( {{ site.background-img }} ) no-repeat bottom center scroll;
+    /* background: url( {{ site.background-img }} ) no-repeat bottom center scroll; */
+    background: url( {{ site.background-img }} ) no-repeat 56% 14%;
     background-color: $dark;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    -webkit-background-size: initial;
+    -moz-background-size: initial;
+    background-size: initial;
+    -o-background-size: initial;
     .intro-body {
         display: table-cell;
         vertical-align: middle;
@@ -291,15 +292,6 @@ ol {
         height: 400px;
         margin-top: 250px;
     }
-
-    .timeline {
-        .timeline-image {
-            .glyphicon {
-                font-size: 6em;
-                margin: -42px;
-            }
-        }
-    }
 }
 
 ul.banner-social-buttons {
@@ -320,15 +312,6 @@ ul.banner-social-buttons {
             padding: 0;
             &:last-child {
                 margin-bottom: 0;
-            }
-        }
-    }
-
-    .timeline {
-        .timeline-image {
-            .glyphicon {
-                font-size: 4em;
-                margin: -28px;
             }
         }
     }
@@ -423,15 +406,5 @@ ul.services {
 
     li + li {
         margin-top: 35px;
-    }
-}
-
-.timeline {
-    .timeline-image {
-        .glyphicon {
-            color: lightgray;
-            position: absolute;
-            top: 50%;
-        }
     }
 }

@@ -133,6 +133,17 @@
     margin-bottom: 0;
 }
 
+@media(max-width:768px) {
+    .timeline {
+        .timeline-image {
+            .glyphicon {
+                font-size: 4em;
+                margin: -28px;
+            }
+        }
+    }
+}
+
 @media(min-width:768px) {
     .timeline:before {
         left: 50%;
@@ -179,6 +190,15 @@
         float: right;
         padding: 0 30px 20px 20px;
         text-align: left;
+    }
+
+    .timeline {
+        .timeline-image {
+            .glyphicon {
+                font-size: 6em;
+                margin: -42px;
+            }
+        }
     }
 }
 
@@ -249,5 +269,15 @@
 
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 100px 20px 20px;
+    }
+}
+
+.timeline {
+    .timeline-image {
+        .glyphicon {
+            color: lightgray;
+            position: absolute;
+            top: 50%;
+        }
     }
 }
