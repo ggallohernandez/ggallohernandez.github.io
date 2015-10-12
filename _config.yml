@@ -28,7 +28,7 @@ keywords: "gallo, hernández, luis, guillermo, ggallohernandez, personal, sitio,
 ################
 
 black-favicon: "/img/black-lab-glass.ico"
-background-img: "../img/intro-bg.jpg"
+background-img: "../img/bg.jpg"
 me-img: "/img/perfil.png"
 
 ##############################
@@ -90,7 +90,7 @@ events:
     description: "Desarrollo de sistemas de gestion internos, y de reporting en plataforma LAMP, utilizando framework CakePHP"
 
 # First image of the Career timeline
-career-img: "/img/empresa/default.png"
+career-img: false
 
 studies:
   - image: "/img/institucion/unlam.png"
@@ -98,7 +98,7 @@ studies:
     title: "Ingeniería en Informática"
     description: "Universidad Nacional de La Matanza"
 
-studies-img: "/img/empresa/default.png"
+studies-img: False
 
 services:
   - title: "Programación orientada a objetos"
@@ -151,6 +151,7 @@ pages_list:
   # Blog: 'blog'
   Experiencia: 'experiencia'
   Estudios: 'estudios'
+  Servicios: 'servicios'
   Contacto: 'contacto'
 
 # Pagination path

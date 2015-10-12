@@ -36,7 +36,11 @@
 
             <li class="timeline-inverted">
               <div class="timeline-image">
-                <img class="img-circle img-responsive" src="{{site.baseurl}}{{ site.studies-img }}" alt="">
+                {% if site.studies-img %}
+                  <img class="img-circle img-responsive" src="{{site.baseurl}}{{ site.studies-img }}" alt="">
+                {% else %}
+                  <span class="glyphicon glyphicon-book" aria-hidden="true"></span>
+                {% endif %}
               </div>
             </li>
           </ul>
