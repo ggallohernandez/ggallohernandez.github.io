@@ -100,6 +100,20 @@ studies:
 
 studies-img: "/img/empresa/default.png"
 
+services:
+  - title: "Programación orientada a objetos"
+    tags: ['desing-patterns', 'oop', 'clean-code']
+    description: "Buenas prácticas de desarrollo orientado a objetos, utilización de patrones de diseño." 
+  - title: "PHP5"
+    tags: ['php5']
+    description: "Sólido conocimiento del lenguaje PHP, y sus versiones más modernas." 
+  - title: "Desarrollo web"
+    tags: ['html5', 'css3', 'javascript', 'jquery', 'caching', 'security']
+    description: "Experiencia en desarrollo de sistemas web, como sitios, intranets y sistemas de reporting. Utilización de metodologias de optimización de carga, y de seguridad contra ataques XSS, y SQL Injection." 
+  - title: "Scripting"
+    tags: ['bash', 'awk', 'sed', 'powershell']
+    description: "Conocimientos en scripting, en sistemas Linux y Windows" 
+
 ##################
 # Contact layout #
 ##################
